@@ -1,7 +1,13 @@
 {
   "name": "indikagamage/unyson",
   "type": "wordpress-unyson",
-  "license": "MIT",
+  "license": ["GPL-2.0"],
+  "version": "0.0.1",
+  "autoload": {
+    "psr-4" : {
+      "unyson" : "web/app/unyson/"
+    }
+  },
   "description": "unyson framework for WordPress",
   "authors": [
     {
