@@ -1,0 +1,29 @@
+{
+  "name": "indikagamage/unyson",
+  "type": "wordpress-unyson",
+  "license": "MIT",
+  "description": "unyson framework for WordPress",
+  "authors": [
+    {
+      "name": "Indika Gamage",
+      "email": "indika@eight25media.com",
+      "homepage": "https://github.com/indikagamage/unyson"
+    }
+  ],
+  "keywords": [
+    "wordpress", "composer","wp","unyson"
+  ],  
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"    
+  }
+  
+}
