@@ -1,6 +1,6 @@
 {
   "name": "indikagamage/unyson",
-  "type": "wordpress-unyson",
+  "type": "wordpress-plugin",
   "license": ["GPL-2.0"],
   
   "description": "unyson framework for WordPress",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-        "php -r \"system('mv '.getcwd().'/vendor/indikagamage/unyson '.getcwd().'/web/app/unyson');\""
+        "php -r \"system('mv '.getcwd().'/vendor/indikagamage/unyson '.getcwd().'/web/app/');\""
     ]
 }
   
